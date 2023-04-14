@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+    
+    
+    .supercontainer{
+        background-color: #efe787;
+        width:99.1vw;
+        height:270vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }   
+                .container{
+                background-color: black;
+                width:80vw;
+                height:270vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                }
+
+                /* header */
+                header{
+                    height: 60vw;
+                    width: 80vw;
+                    background-color: blueviolet;
+                }
+
+                    .header{
+                        background-image: url(../images/header.jpg);
+                        background-size: cover;
+                        width: 80vw;
+                        height: 30vw;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                        .header img{   
+                            width: 40vw;
+                            height: 9.02vw;
+                        }
+                        .header h2{
+                            font-size: 1.4vw;
+                            letter-spacing: 2vw;
+                            color:#efe787
+                        }
+                        .header .pusher{
+                            height:3vw
+                        }
+
+                    .intro{
+                        background-color: #3e3838;
+                        width:80vw;
+                        height:30vw;
+                        display: flex;
+                        flex-direction: column;
+
+                    }
+                        .hopusher1{
+                            flex:35;
+                            
+                            
+                        }
+                        .vtpusher1{
+                            
+                            width: 15vw;
+                            
+                            
+                        }
+                        .hopusher2{
+                            flex:65;
+                            
+                        }
+                        .vtpusher2{
+                            flex:455;
+                            
+                            
+                        }
+                        .h2intro{
+                            flex:35;
+                            text-align: center;
+                            display: flex;
+                            flex-direction: row;
+                            font-size: 3vw;
+                            color: #efe787;
+                            
+                            
+                        }
+                            .h2intro h2{
+                                flex:210;
+                                border-top: solid #efe787;
+                                border-bottom: solid #efe787;
+                            }
+                        .prgph{
+                            flex:200;
+                            display: flex;
+                            text-align: center;
+                            font-size: 1.9vw;
+                            color: #efe787;
+                        }
+
+
+                /* ^header---------------------------------------------------------------------------------------------------------------- */
+                /* main */
+                main{
+                    height:240vw;
+                    width:80vw;
+                    background-color: yellow
+                }
+                    .avengers{
+                        height: 70vw;
+                        width:80vw;
+                        background-color: white;
+                    }
+                        
+                        .avengers .ctn{
+                            margin-left: 10vw;
+                        }
+                        .avengers .ctn .hoh2{
+                            padding-top: 3vw;
+                            font-size: 2.2VW;
+                            color: #6cbcb3;
+                        }
+                        .avengers .ctn .prgph{
+                            font-size: 1.5vw;
+                            text-align: left;
+                            color: #282828;
+                            margin-top: 2vw;
+                            padding-right: 25vw;
+                            line-height: 1.9vw;
+                            padding-bottom: 3vw;
+                        }
+                        .avengers .ctn img{
+                            width: 60vw;
+                        }
+                        .avengers .ctn .h61{
+                            color: #6cbcb3;
+                            font-size: 1.3vw;
+                            padding-top: 2vw;
+                        }
+                        .avengers .ctn .h62{
+                            color: #6cbcb3;
+                            font-size: 1.3vw;
+                            ;
+                        }
+                    .star{
+                        height:52vw;
+                        width:80vw;
+                        background-color: #6cbcb3;
+                    }
+                    
+                    .star .ctn{
+                        margin-left: 10vw;
+                    }
+                    .star .ctn .hoh2{
+                        padding-top: 3vw;
+                        font-size: 2.2VW;
+                        color: #282828;
+                    }
+                    .star .ctn .prgph{
+                        font-size: 1.5vw;
+                        text-align: left;
+                        color: #282828;
+                        margin-top: 2vw;
+                        padding-right: 25vw;
+                        line-height: 1.9vw;
+                        padding-bottom: 3vw;
+                    }
+                    .star .ctn img{
+                        width: 60vw;
+                    }
+                    .star .ctn .h61{
+                        color: white;
+                        font-size: 1.3vw;
+                        padding-top: 2vw;
+                    }
+                    .star .ctn .h62{
+                        color: white;
+                        font-size: 1.3vw;
+                        ;
+                    }
+
+                    .women{
+                        height:65vw;
+                        width:80vw;
+                        background-color: #282828;
+                    }
+                    .women .ctn{
+                        margin-left: 10vw;
+                    }
+                    .women .ctn .hoh2{
+                        padding-top: 3vw;
+                        font-size: 2.2VW;
+                        color: white;
+                    }
+                    .women .ctn .prgph{
+                        font-size: 1.5vw;
+                        text-align: left;
+                        color: white;
+                        margin-top: 2vw;
+                        padding-right: 25vw;
+                        line-height: 1.9vw;
+                        padding-bottom: 3vw;
+                    }
+                    .women .ctn img{
+                        width: 60vw;
+                    }
+                    .women .ctn .h61{
+                        color: white;
+                        font-size: 1.3vw;
+                        padding-top: 2vw;
+                    }
+                    .women .ctn .h62{
+                        color: white;
+                        font-size: 1.3vw;
+                        ;
+                    }  
+
+                /* ^main---------------------------------------------------------------------------------------------------------------- */
+                
+                
+                /*footer */
+                
+                footer{
+                    height: 30vw;
+                    width: 80vw;
+                    background-color: black
+                }
+                footer .ctnfooter{
+                    margin-left: 5vw;
+                }
+                    footer h6{
+                        color: white;
+                        font-size: 1vw;
+                        margin-top: 0.5vw;
+                    }
+                    footer ul{
+                        list-style-type: none;
+                        
+                    }
+                    footer ul .LI1{
+                        color:white
+
+                    }
+                    footer ul li{
+                        display: inline;
+                        font-size: 1vw;
+                    }
+                    footer ul .LI2{
+                        color:#efe787;
+                        
+                    }
+                    footer img{
+                        margin-top: 2vw;
+                        margin-bottom: 1vw;
+                    }
+                /* ^footer---------------------------------------------------------------------------------------------------------------- */
+
+        /*---- responsive PC first */
+        
+        /* point de rupture  */
+        {
+
+        }
+        /* ^point de rupture-------------------------------------------------------------------------------------------------------- */
+
+        /* tablette */
+        @media screen and (max-width:768px){
+
+        }
+        /* ^tablette---------------------------------------------------------------------------- */
+
+        /* mobile */
+        @media screen and (max-width:420px)
+        /* ^mobile ---------------------------------------------------------------------------------------------------------------------*
